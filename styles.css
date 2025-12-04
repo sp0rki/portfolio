@@ -414,3 +414,9 @@ footer {
         font-size: 2rem;
     }
 }
+.project-image {
+    width: 100%;
+    height: 180px;       /* Adjust this number to make it taller or shorter */
+    object-fit: cover;   /* Keeps the image clean and cropped */
+    display: block;
+}
